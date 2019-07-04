@@ -1,0 +1,7 @@
+apiVersion: kubeweibomesh.weibo.com/v1
+kind: WeiboMesh
+metadata:
+  name: mapi-weibomesh
+spec:
+  deploymentName: mapi-weibomesh
+  replicas: 1
